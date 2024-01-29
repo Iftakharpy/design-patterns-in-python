@@ -1,6 +1,8 @@
 """
 Here we have a naive builder that builds HTML markup.
 This is error prone and not very easy.
+This example is not very good, but it shows the basic idea 
+of when builder pattern can be useful.
 """
 
 text = 'hello'
