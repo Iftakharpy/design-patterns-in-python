@@ -19,6 +19,7 @@ Two of the best resources I came across for learning design patterns are:
 			- [Structural design patterns](#structural-design-patterns)
 			- [Behavioral design patterns](#behavioral-design-patterns)
 	- [Creational design patterns](#creational-design-patterns-1)
+	- [Structural design patterns](#structural-design-patterns-1)
 
 
 
@@ -71,3 +72,19 @@ Here are some examples of creational design patterns:
 5. **Prototype Pattern**: This pattern involves creating new objects by copying existing objects. It's useful when object creation is time-consuming, and you want to avoid redundancy in the initialization process.
 
 Each of these patterns can be used to control and manage the way objects are created based on the requirements of your software.
+
+
+## Structural design patterns
+
+Structural patterns are concerned with object composition and typically identify simple ways to realize relationships between different objects. They help ensure that when one part of a system changes, the entire structure of the system doesn't need to do the same. They also help in recasting parts of the system which don't fit a particular purpose into those that do.
+
+Here are some examples of structural design patterns:
+
+1. **Adapter Pattern**: This pattern allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
+2. **Bridge Pattern**: This pattern decouples an abstraction from its implementation so that the two can vary independently. It is used when a class has two (often orthogonal) dimensions of change.
+3. **Composite Pattern**: This pattern composes objects into tree structures and then works with these structures as if they were individual objects. It is used when you want to represent part-whole hierarchies of objects.
+4. **Decorator Pattern**: This pattern dynamically adds/overrides behavior in an existing method of an object. It is used when you want to add state to individual objects at run-time.
+5. **Facade Pattern**: This pattern provides a simplified interface to a complex subsystem. It is used when you want to provide a simple interface to a complex subsystem.
+6. **Flyweight Pattern**: This pattern reduces the cost of complex object models by dividing them into two parts: a core (intrinsic) part and a variable (extrinsic) part. It is used when you need to create a large number of similar objects.
+7. **Proxy Pattern**: This pattern provides a placeholder for another object to control access, reduce cost, and reduce complexity. It is used when you need to represent a complex/expensive object with a simpler one.
+8. **Private Class Data Pattern**: This pattern helps to reduce the accessibility of class attributes by separating them into another class. It is used when you need to separate the data from the behavior that manipulates the data.
