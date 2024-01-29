@@ -9,7 +9,7 @@
 
 
 When going over the files of the Builder pattern, my recommended order of reading is:
-1. [NaiveBuilder.py](./NaiveBuilder.py)
-2. [OrdinaryBuilder.py](./OrdinaryBuilder.py)
-3. [BuilderFacets.py](./BuilderFacets.py)
-4. [BuilderInheritance.py](./BuilderInheritance.py)
+1. [naive_builder.py](./naive_builder.py)
+2. [ordinary_builder.py](./ordinary_builder.py)
+3. [builder_facets.py](./builder_facets.py)
+4. [builder_inheritance.py](./builder_inheritance.py)
