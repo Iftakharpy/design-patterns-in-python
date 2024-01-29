@@ -2,4 +2,4 @@ When going over the files of the Builder pattern, my recommended order of readin
 1. [NaiveBuilder.py](./NaiveBuilder.py)
 2. [OrdinaryBuilder.py](./OrdinaryBuilder.py)
 3. [BuilderFacets.py](./BuilderFacets.py)
-
+4. [BuilderInheritance.py](./BuilderInheritance.py)
